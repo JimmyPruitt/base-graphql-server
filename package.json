@@ -21,6 +21,7 @@
     "@jimmy/ts-config": "https://github.com/JimmyPruitt/ts-config#0.0.1",
     "@nestjs/testing": "^7.3.2",
     "@types/jest": "^26.0.4",
+    "@types/rethinkdb": "^2.3.16",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
@@ -42,6 +43,7 @@
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "reflect-metadata": "^0.1.13",
+    "rethinkdb": "^2.4.2",
     "rxjs": "^6.6.0"
   },
   "husky": {
