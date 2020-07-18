@@ -11,7 +11,8 @@
     "test:coverage": "node -r tsconfig-paths/register -r ts-node/register -r ts-jest ./node_modules/jest/bin/jest.js --runInBand --coverage",
     "lint": "eslint --fix -c node_modules/@jimmy/eslint-config/.eslintrc.node.json .",
     "prettier": "prettier --write --config node_modules/@jimmy/prettier-config/.prettierrc.json src bin *.{js,ts,json,gql,md}",
-    "build": "tsc -p tsconfig.json --pretty"
+    "build": "tsc -p tsconfig.json",
+    "watch": "yarn build --pretty --watch"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
