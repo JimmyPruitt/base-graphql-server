@@ -17,7 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
-    "@jimmy/eslint-config": "https://github.com/JimmyPruitt/eslint-config#0.0.1",
+    "@jimmy/eslint-config": "https://github.com/JimmyPruitt/eslint-config#0.0.3",
     "@jimmy/prettier-config": "https://github.com/JimmyPruitt/prettier-config#0.0.1",
     "@jimmy/ts-config": "https://github.com/JimmyPruitt/ts-config#0.0.1",
     "@nestjs/testing": "^7.3.2",

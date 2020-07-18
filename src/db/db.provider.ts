@@ -1,4 +1,3 @@
-import { Connection } from 'rethinkdb'
 import RethinkDb from 'rethinkdbdash'
 import { Provider } from '@nestjs/common'
 

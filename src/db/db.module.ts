@@ -1,4 +1,4 @@
-import { Global, Module, DynamicModule } from '@nestjs/common'
+import { Module, DynamicModule } from '@nestjs/common'
 import { DbProvider } from './db.provider'
 
 @Module({})

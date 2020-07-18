@@ -1127,9 +1127,9 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@jimmy/eslint-config@https://github.com/JimmyPruitt/eslint-config#0.0.1":
+"@jimmy/eslint-config@https://github.com/JimmyPruitt/eslint-config#0.0.3":
   version "1.0.0"
-  resolved "https://github.com/JimmyPruitt/eslint-config#dfe707e691e951767aefa04e8bce5ba8fa089ec7"
+  resolved "https://github.com/JimmyPruitt/eslint-config#6db698464a2ef43486e264ccb6e76abf3b9de101"
   dependencies:
     "@jimmy/ts-config" "https://github.com/JimmyPruitt/ts-config"
     "@typescript-eslint/eslint-plugin" "^3.6.0"
