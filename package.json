@@ -5,7 +5,7 @@
   "author": "Jimmy Pruitt",
   "license": "MIT",
   "scripts": {
-    "start": "nest start --watch --path=tsconfig.json",
+    "start": "nest start --debug --watch --path=tsconfig.json",
     "test:dev": "node --inspect -r tsconfig-paths/register -r ts-node/register -r ts-jest ./node_modules/jest/bin/jest.js --runInBand --watchAll",
     "test:ci": "node -r tsconfig-paths/register -r ts-node/register -r ts-jest ./node_modules/jest/bin/jest.js --runInBand",
     "test:coverage": "node -r tsconfig-paths/register -r ts-node/register -r ts-jest ./node_modules/jest/bin/jest.js --runInBand --coverage",
